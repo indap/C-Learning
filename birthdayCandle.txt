@@ -16,7 +16,7 @@ class Solution {
 
     // Complete the birthdayCakeCandles function below.
     static int birthdayCakeCandles(int[] ar) {
-        int tallest_candle = ar[0];
+        int tallest_candle = ar.Max();
         int can_blow = 0;
         
         for (int i=0; i<ar.Length; i++)
